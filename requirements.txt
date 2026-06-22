@@ -1,0 +1,17 @@
+# Career Path Advisor - Python Dependencies
+# Production requirements for career-path-advisor skill
+
+# Core dependencies
+crawl4ai>=0.2.0  # Web crawling for knowledge pipeline
+urllib3>=2.0.0   # HTTP requests for ArXiv API
+
+# Optional dependencies (for enhanced functionality)
+beautifulsoup4>=4.12.0  # HTML parsing
+lxml>=4.9.0            # XML/HTML processing
+requests>=2.31.0        # HTTP library
+
+# Development dependencies
+pytest>=7.4.0           # Testing framework
+pytest-cov>=4.1.0       # Coverage reporting
+black>=23.0.0           # Code formatting
+mypy>=1.5.0             # Type checking
